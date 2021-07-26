@@ -17,9 +17,9 @@
     "zustand": "3.0.0-beta.0"
   },
   "scripts": {
-    "start": "create-react-app start",
-    "build": "create-react-app build",
-    "test": "create-react-app test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
